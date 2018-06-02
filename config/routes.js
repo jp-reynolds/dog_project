@@ -1,20 +1,21 @@
 var express = require('express');
 var router = express.Router();
-var placeController = require('../controller/places');
+var placesController = require('../controller/places');
 
 //GET ROUTES
-router.get('/api/places/park', placeController.placeIndex);
-router.get('/api/places/hike', placeController.placeIndex);
-router.get('/api/places/camp', placeController.placeIndex);
+router.get('/api/places', placesController.placesIndex);
+router.get('/api/places/park', placesController.placesParkIndex);
+router.get('/api/places/hike', placesController.placesHikeIndex);
+router.get('/api/places/camp', placesController.placesCampIndex);
 
 //GET BY ID ROUTE
-router.get('/api/places/:place_id', placeController.placeIndexID);
+// router.get('/api/places/:place_id', placesController.placeIndexID);
 
 //CREATE ROUTE
-router.post('/api/places', placeController.placeCreate);
+// router.post('/api/places', placesController.placeCreate);
 
 //UPDATE ROUTE
-router.put("/api/places", placeController.placeUpdate);
+// router.put("/api/places", placesController.placeUpdate);
 
 //DELETE ROUTE
 
