@@ -45,7 +45,6 @@ function placesCreate(req, res) {
 		image: req.body.image,
 		lat: req.body.lat,
 		long: req.body.long,
-		comments: req.body.comments,
 		type: req.body.type
 	};
 	db.Place.create(newPlace, function(err, newPlace) {
@@ -55,6 +54,7 @@ function placesCreate(req, res) {
 }
 
 //UPDATE PLACES
+//NEED UPDATE ROUTES TO ADD AND REMOVE COMMENTS in ARRAY
 function placesUpdate(req, res) {
 
 }
