@@ -48,9 +48,9 @@ var placeSeedList = [
 	}
 ];
 
-// db.Place.remove({}, function(err, deleteResults){
+db.Place.remove({}, function(err, deleteResults){
 		db.Place.create(placeSeedList, function(err, places){
 			console.log("running seed file");
 			console.log(places);
 		});
-// });
+});
