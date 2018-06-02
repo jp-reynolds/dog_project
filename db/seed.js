@@ -9,7 +9,11 @@ var placeSeedList = [
 		image: "https://www.colorado.com/sites/default/files/styles/1000x685/public/2_GoldenGatePark3_YannRopars_0.jpg?itok=B1UPuwxU",
 		lat: 39.814339,
 		long: -105.395622,
-		comments: ["This place was perfect! Very peaceful and a great place to bring the pup!"],
+		comments: [
+			{
+				body: "This place was perfect! Very peaceful and a great place to bring the pup!"
+			},
+		],
 		type: "hike"
 	},
 	{
@@ -20,7 +24,11 @@ var placeSeedList = [
 		image: "https://www.colorado.com/sites/default/files/styles/1000x685/public/2_GoldenGatePark3_YannRopars_0.jpg?itok=B1UPuwxU",
 		lat: 40.079063,
 		long: -106.103241,
-		comments: ["This place was perfect! Very peaceful and a great place to bring the pup!"],
+		comments: [
+			{
+				body: "This place was perfect! Very peaceful and a great place to bring the pup!"
+			},
+		],
 		type: "camp"
 	},
 	{
@@ -31,7 +39,11 @@ var placeSeedList = [
 		image: "https://www.colorado.com/sites/default/files/styles/1000x685/public/2_GoldenGatePark3_YannRopars_0.jpg?itok=B1UPuwxU",
 		lat: 39.7335,
 		long: 104.9652,
-		comments: ["This place was perfect! Very peaceful and a great place to bring the pup!"],
+		comments: [
+			{
+				body: "This place was perfect! Very peaceful and a great place to bring the pup!"
+			},
+		],		
 		type: "park"
 	}
 ];
