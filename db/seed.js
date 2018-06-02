@@ -3,6 +3,7 @@ var db = require("../models");
 var placeSeedList = [
 	{
 		name: "Golden Gate Canyon State Park",
+		city: "Golden, CO",
 		description: "Just outside of the City of Denver and a great secluded hiking spot.",
 		elevation: "8,694 ft.",
 		image: "https://www.colorado.com/sites/default/files/styles/1000x685/public/2_GoldenGatePark3_YannRopars_0.jpg?itok=B1UPuwxU",
@@ -12,7 +13,8 @@ var placeSeedList = [
 		type: "hike"
 	},
 	{
-		name: "Kremmling",
+		name: "Natural Hot Springs",
+		city: "Kremmling, CO",
 		description: "Just outside of the City of Denver and a great secluded hiking spot.",
 		elevation: "7,675 ft.",
 		image: "https://www.colorado.com/sites/default/files/styles/1000x685/public/2_GoldenGatePark3_YannRopars_0.jpg?itok=B1UPuwxU",
@@ -23,6 +25,7 @@ var placeSeedList = [
 	},
 	{
 		name: "Cheesman Park",
+		city: "Denver, CO",
 		description: "Just outside of the City of Denver and a great secluded hiking spot.",
 		elevation: "8,694 ft.",
 		image: "https://www.colorado.com/sites/default/files/styles/1000x685/public/2_GoldenGatePark3_YannRopars_0.jpg?itok=B1UPuwxU",

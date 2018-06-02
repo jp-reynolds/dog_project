@@ -5,6 +5,7 @@ var   Comment  = require('./comment');
 
 const PlaceSchema = new Schema ({
 	name: String,
+	city: String,
 	description: String,
 	elevation: String,
 	image: String,
