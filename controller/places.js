@@ -43,8 +43,8 @@ function placesCreate(req, res) {
 		description: req.body.description,
 		elevation: req.body.elevation,
 		image: req.body.image,
-		lat: req.body.lat,
-		long: req.body.long,
+		// lat: req.body.lat,
+		// long: req.body.long,
 		type: req.body.type
 	};
 	db.Place.create(newPlace, function(err, newPlace) {

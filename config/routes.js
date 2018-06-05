@@ -12,10 +12,10 @@ router.get('/api/places/camp', placesController.placesCampIndex);
 // router.get('/api/places/:place_id', placesController.placeIndexID);
 
 //CREATE ROUTE
-// router.post('/api/places', placesController.placeCreate);
+router.post('/api/places', placesController.placesCreate);
 
 //UPDATE ROUTE
-// router.put("/api/places", placesController.placeUpdate);
+// router.put("/api/places", placesController.placesUpdate);
 
 //DELETE ROUTE
 
