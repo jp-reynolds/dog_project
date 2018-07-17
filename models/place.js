@@ -12,6 +12,8 @@ const PlaceSchema = new Schema ({
 	long: Number,
 	lat: Number,
 	type: String,
+	likes: Number,
+	dislikes: Number,
 	comments: [Comment.schema]
 });
 
